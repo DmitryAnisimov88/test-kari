@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма Сбора Данных</title>
+    <link rel="stylesheet" href="style.css"> <!-- Подключение CSS -->
+</head>
+<body>
+
+<h2>Форма Сбора Данных</h2>
+
+<form action="/submit-form" method="post">
+    <label for="name">Имя:</label><br>
+    <input type="text" id="name" name="name"><br>
+    
+    <p>Выберите один вариант:</p>
+    <input type="radio" id="option1" name="choice" value="option1">
+    <label for="option1">Вариант 1</label><br>
+    <input type="radio" id="option2" name="choice" value="option2">
+    <label for="option2">Вариант 2</label><br>
+    
+    <p>Выберите несколько вариантов:</p>
+    <input type="checkbox" id="check1" name="checks[]" value="check1">
+    <label for="check1">Пункт 1</label><br>
+    <input type="checkbox" id="check2" name="checks[]" value="check2">
+    <label for="check2">Пункт 2</label><br>
+    
+    <p>Шкала от 1 до 10:</p>
+    <input type="range" min="1" max="10" value="5" class="slider" id="scale"><br>
+    
+    <input type="submit" value="Отправить">
+</form>
+
+</body>
+</html>
