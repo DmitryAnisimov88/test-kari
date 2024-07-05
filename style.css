@@ -3,13 +3,13 @@ body {
 }
 
 .h2 {
+    width: 100vw;
     font-size: 90px;
     margin: auto;
-    display: flex;
 }
 
 .form {
-    width: 300px;
+    width: 100vw;
     margin: auto;
 }
 
