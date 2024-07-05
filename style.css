@@ -1,11 +1,12 @@
 body {
     font-family: Arial, sans-serif;
-    margin: auto;
+    display: fixed;
 }
 
 .h2 {
     font-size: 90px;
     margin: auto;
+    display: flex;
 }
 
 .form {
