@@ -65,4 +65,5 @@ body {
 
 .content:hover .footer-bar {
     opacity: 1; /* Отображение плашки при наведении */
+    z-index: 2;
 }
