@@ -5,6 +5,10 @@ body {
     display: flex; /* Используем Flexbox для центрирования */
     align-items: center; /* Центрирование по вертикали */
     justify-content: center; /* Центрирование по горизонтали */
+    background-image: url('https://catherineasquithgallery.com/uploads/posts/2021-02/1612256501_125-p-prozrachnii-fioletovii-fon-155.png'); /* Добавляем фоновое изображение */
+    background-repeat: no-repeat; /* Запрещаем повторение изображения */
+    background-position: center; /* Центрируем изображение */
+    background-size: cover; /* Масштабируем изображение так, чтобы оно покрывало весь фон */
 }
 
 .container {
