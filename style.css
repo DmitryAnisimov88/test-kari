@@ -1,17 +1,21 @@
 body {
     font-family: Arial, sans-serif;
+    margin: 0; /* Убираем стандартные отступы */
+    height: 100vh; /* Задаем высоту тела документа равной высоте окна просмотра */
+    display: flex; /* Используем Flexbox для центрирования */
+    align-items: center; /* Центрирование по вертикали */
+    justify-content: center; /* Центрирование по горизонтали */
 }
 
-.h2 {
-    width: 100%;
-    font-size: 90px;
-    margin: auto;
+.container {
+    text-align: center; /* Центрирование текста внутри контейнера */
 }
 
-kariform {
-    width: 100vw;
+.kariform {
+    width: 100%; /* Установка ширины контейнера равной ширине окна просмотра */
     display: flex;
-    justify-content: center;
+    flex-direction: column; /* Столбцовый порядок элементов */
+    align-items: center; /* Центрирование по горизонтали */
 }
 
 .form {
