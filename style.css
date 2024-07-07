@@ -61,9 +61,10 @@ body {
     align-items: center; /* Центрирование содержимого по вертикали */
     opacity: 0; /* Скрытие плашки по умолчанию */
     transition: opacity 0.3s ease-in-out; /* Анимация изменения прозрачности */
+    z-index: 2;
 }
 
 .content:hover .footer-bar {
     opacity: 1; /* Отображение плашки при наведении */
-    z-index: 2;
+
 }
