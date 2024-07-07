@@ -3,13 +3,19 @@ body {
 }
 
 .h2 {
-    width: 100vw;
+    width: 100%;
     font-size: 90px;
     margin: auto;
 }
 
-.form {
+kariform {
     width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    width: 100%;
     margin: auto;
 }
 
